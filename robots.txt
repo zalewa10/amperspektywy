@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Boty AI / LLM – treści strony są publiczne i mogą być cytowane
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://amperspektywy.com/sitemap.xml
